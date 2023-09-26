@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head') %>
+  <body>
+    <%- include('partials/nav') %>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h3 class="section__subtitle">My <span>Services</span></h3>
+        <h2 class="section__title">What I Do</h2>
+        <div class="services__container container grid">
+          <article class="services__card">
+            <i class="ri-layout-3-line services__icon"></i>
+            <h2 class="services__title">Web Developer</h2>
+            <p class="services__description">
+              Development of custom web pages. Using current technologies and
+              libraries of the labor field.
+            </p>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-pantone-line services__icon"></i>
+            <h2 class="services__title">API Development and Integration:</h2>
+            <p class="services__description">
+              I specialize in designing, building, and integrating APIs. Enable
+              efficient communication between different software components.
+            </p>
+          </article>
+
+          <article class="services__card">
+            <i class="ri-pen-nib-line services__icon"></i>
+            <h2 class="services__title">
+              Database Architecture and Management:
+            </h2>
+            <p class="services__description">
+              I excel in designing and managing databases. Implement efficient
+              database architectures that store, retrieve, and manipulate data
+              effectively.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="javascripts/scrollreveal.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="/javascripts/main.js"></script>
+  </body>
+</html>
