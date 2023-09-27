@@ -1,3 +1,11 @@
+/*========== Student Information ==========*/
+/*
+  File name: JS file
+  Student name: Tuong Quyen Dao
+  Student number: 301339656
+  Date: Sep 27, 2023
+  */
+
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu');
 const navToggle = document.getElementById('nav-toggle');

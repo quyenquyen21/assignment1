@@ -5,18 +5,12 @@
 :root {
   --header-height: 3.5rem;
 
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
+  /*========== Student Information ==========*/
   /*
-      Change favorite color
-      Default: hsl(162, 100%, 40%)
-      Orange: hsl(14, 100%, 65%) - Blue: hsl(210, 100%, 70%)
-      Pink: hsl(356, 100%, 75%) - Purple: hsl(250, 100%, 75%)
-
-      For more colors visit: https://colors.dopely.top/color-pedia
-      -> Choose any color
-      -> click on tab (Color Conversion)
-      -> Copy the color mode (HSL)
+  File name: Css file
+  Student name: Tuong Quyen Dao
+  Student number: 301339656
+  Date: Sep 27, 2023
   */
 
   --hue: 14;
