@@ -405,6 +405,7 @@ svg {
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
+  background-size: cover;
 }
 .projects_img {
   width: 100%;
